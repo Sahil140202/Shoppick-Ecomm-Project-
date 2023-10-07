@@ -47,12 +47,18 @@
     },
     {
       "id": 10
+    },
+    {
+      "name": "123",
+      "password": "1234",
+      "email": "1234",
+      "id": 11
     }
   ],
   "products": [
     {
       "name": "Samsung m 40 a ",
-      "price": "550",
+      "price": "25000",
       "category": "mobile",
       "color": "Light green",
       "description": "this is a Samsung product",
@@ -78,7 +84,7 @@
       "id": 3
     },
     {
-      "name": "Nike Shoes",
+      "name": "Nike Shoe",
       "price": "3000",
       "category": "Shoes",
       "color": "Black",
@@ -144,6 +150,18 @@
       "email": "sahil@test.com",
       "password": "abc@123",
       "id": 5
+    },
+    {
+      "name": "sandeep",
+      "email": "sandy@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "aman",
+      "email": "amanuser@gmail.com",
+      "password": "aman123",
+      "id": 7
     }
   ],
   "cart": [
