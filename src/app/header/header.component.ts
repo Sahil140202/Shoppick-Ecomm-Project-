@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   userName:string="";
   searchResult:undefined|product[];
   cartItems=0;
+  Logoutstatus= "seller logged out";
   constructor(private route: Router, private product:ProductService) {}
 
   ngOnInit(): void {
@@ -46,7 +47,9 @@ export class HeaderComponent implements OnInit {
   }
   logout(){
     localStorage.removeItem('seller');
-    this.route.navigate(['/'])
+    this.route.navigate(['/']);
+    this.Logoutstatus= "seller logged out"
+
   }
 
   userLogout(){

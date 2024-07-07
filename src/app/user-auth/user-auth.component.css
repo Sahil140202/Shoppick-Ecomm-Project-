@@ -3,11 +3,18 @@
     margin-bottom: 50px;
     margin-top: 80px;
     color: blueviolet;
+    border-radius: 2rem;
 }
 .user-auth {
     margin-bottom: 100px;
+    border-radius: 2rem;
 }
 .common-form a{
     color:blueviolet;
     cursor: pointer;
+    border-radius: 2rem;
+}
+
+.form-input{
+    border-radius: 2rem;
 }

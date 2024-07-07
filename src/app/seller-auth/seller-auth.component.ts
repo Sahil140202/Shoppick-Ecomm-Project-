@@ -16,7 +16,7 @@ export class SellerAuthComponent implements OnInit {
     this.seller.reloadSeller()
   }
   signUp(data: signUp): void {
-    console.warn(data);
+    
     this.seller.userSignUp(data);
   }
   login(data: signUp): void {

@@ -1,12 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 import { cart, order, product } from '../data-type';
+import { Observable } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductService {
+  private apiUrl = 'C:\Users\sahil\OneDrive\Desktop\E-Comm\db.json';
   cartData = new EventEmitter<product[] | []>();
+  
   constructor(private http: HttpClient) { }
   addProduct(data: product) {
     return this.http.post('http://localhost:3000/products', data);
@@ -21,6 +25,10 @@ export class ProductService {
 
   getProduct(id: string) {
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
+  }
+
+  name(){
+    return this.http.get<product>(`http://localhost:3000/products/${name}`);
   }
 
   updateProduct(product: product) {
@@ -41,6 +49,14 @@ export class ProductService {
     return this.http.get<product[]>(
       `http://localhost:3000/products?q=${query}`
     );
+  }
+
+  getProducts(): Observable<product[]> {
+    return this.http.get<product[]>(this.apiUrl);
+  }
+
+  getProductsByCategory(category: string): Observable<product[]> {
+    return this.http.get<product[]>(`${this.apiUrl}?category=${category}`);
   }
 
   localAddToCart(data: product) {

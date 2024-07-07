@@ -5,7 +5,7 @@ ul{
 .footer {
     padding: 10px;
     text-align: center;
-    position: fixed;
+    
     bottom: 0;
     right: 0;
     left: 0;
@@ -17,6 +17,6 @@ ul{
     justify-content: space-between;
 }
 .footer ul li a{
-    color: blueviolet;
+    color: #333;
     text-decoration: none;
 }

@@ -16,6 +16,10 @@
 .quantity-group{
     margin-top: 20px;
 }
+
+.form-control{
+    display: flex;
+}
 .quantity-group button{
     padding: 10px;
 }

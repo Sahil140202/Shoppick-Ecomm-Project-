@@ -5,7 +5,10 @@
 .cart-page h1{
     text-align: center;
 }
-.details {
+.form-button {
+   border-radius: 3rem;
+   border-color: black;
+   color: black;
    
 }
 .details img{
@@ -34,4 +37,6 @@
 .summary ul li{
     display: flex;
     justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+

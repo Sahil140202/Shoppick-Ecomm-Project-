@@ -1,12 +1,16 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin: 0%;
 }
 
 .nav h1 {
   color: blueviolet;
-  margin: 0;
-  font-size: 40px;
+  font-size: 24px;
+  font-weight: bold;
 }
 .nav .nav-search {
   flex: 1;
@@ -14,20 +18,24 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5px;
+  border-radius: 3rem;
 }
 
 .nav .nav-search input {
     flex: 1;
     color: blueviolet;
-    border: 1px solid blueviolet;
     height: 39px;
     border-right: none;
+    border-radius: 3rem;
 }
 
 .nav .nav-search button{
-    color: blueviolet;
+    color: #333;
     border: 1px solid blueviolet;
     height: 39px;
+    border: hidden;
+    margin-left: 1rem;
+    background-color: white;
 }
 
 .nav ul {
@@ -35,6 +43,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
 }
 
 .nav ul li{
@@ -44,8 +53,15 @@
 
 .nav ul a {
     text-decoration: none;
-    color: blueviolet;
+    
     cursor: pointer;
+    
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav ul a:hover{
+  color: #aaa;
 }
 
 h1 a{
@@ -55,7 +71,7 @@ h1 a{
 
 .suggested-search{
   position: absolute;
-  top: 40px;
+  top: 60px;
   z-index: 10;
   display: list-item !important;
   border: 1px solid #ddd;

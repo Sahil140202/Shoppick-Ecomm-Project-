@@ -1,87 +1,93 @@
 {
   "seller": [
     {
-      "name": "sam sidhu",
-      "email": "sam@seller.com",
-      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "sahil@test.com",
       "id": 2
     },
     {
-      "name": "peter",
-      "password": "abc@123",
-      "email": "peter@test.com",
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "sahil@test.com",
       "id": 3
     },
     {
-      "name": "bruce",
-      "password": "abc@123",
-      "email": "bruce@test.com",
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
       "id": 4
     },
     {
-      "name": "anil",
-      "password": "abc123",
-      "email": "anil@test.com",
+      "name": "Sahil Cheema",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
       "id": 5
     },
     {
-      "name": "alena",
-      "password": "abc123",
-      "email": "alena@test.com",
+      "name": "Sahil Cheema",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
       "id": 6
     },
     {
-      "name": "sam",
-      "password": "abc@123",
-      "email": "sam@test.com",
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "abc@gmail.com",
       "id": 7
     },
     {
-      "name": "bhasker",
-      "password": "abc@123",
-      "email": "bhasker@test.com",
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
       "id": 8
     },
     {
       "id": 9
     },
     {
+      "name": "yami",
+      "password": "yami",
+      "email": "yami123@gmail.com",
       "id": 10
     },
     {
-      "name": "123",
-      "password": "1234",
-      "email": "1234",
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
       "id": 11
+    },
+    {
+      "name": "sahil",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
+      "id": 12
+    },
+    {
+      "name": "raju",
+      "password": "raju",
+      "email": "raju@123.com",
+      "id": 13
+    },
+    {
+      "name": "Sahil Cheema",
+      "password": "Test@123",
+      "email": "admin1@circulayo.com",
+      "id": 14
     }
   ],
   "products": [
-    {
-      "name": "Samsung m 40 a ",
-      "price": "25000",
-      "category": "mobile",
-      "color": "Light green",
-      "description": "this is a Samsung product",
-      "image": "https://www.zala.bt/uploads/products/galaxy-m40.jpg",
-      "id": 1
-    },
     {
       "name": "I phone 14",
       "price": "100000",
       "category": "mobile",
       "color": "black",
-      "description": "An Apple Product",
+      "description": "Experience the future of mobile technology with the iPhone 14. Crafted with precision engineering and cutting-edge innovation, the iPhone 14 redefines what a smartphone can do. Here's what makes it stand out:\n\nExceptional Performance: Powered by the latest A16 Bionic chip, the iPhone 14 delivers lightning-fast performance, seamless multitasking, and energy efficiency, ensuring smooth operation for all your tasks and activities.",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
       "id": 2
-    },
-    {
-      "name": "HP Laptop",
-      "price": "50000",
-      "category": "Laptop",
-      "color": "black",
-      "description": "Hp laptop for student and professionals",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": 3
     },
     {
       "name": "Nike Shoe",
@@ -89,17 +95,8 @@
       "category": "Shoes",
       "color": "Black",
       "description": "Best shoes for Running",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "image": "https://th.bing.com/th/id/R.80b8861685512d09b9ea4fff11aeb982?rik=otMD3cJc2vX78A&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnike-shoe-png-nike-shoes-png-image-1280.png&ehk=pGqSWQ41smNCRTmB20Zd12BwzFx7bY5iOP5L%2bXZXgQA%3d&risl=&pid=ImgRaw&r=0",
       "id": 4
-    },
-    {
-      "name": "Levies Jeans",
-      "price": "5000",
-      "category": "Jeans",
-      "color": "blue",
-      "description": "Confirmable jeans for man ",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": 5
     },
     {
       "name": "Noise Smart Watch",
@@ -112,12 +109,48 @@
     },
     {
       "name": "iphone 12",
-      "price": "72000",
-      "color": "white",
+      "price": "40000",
       "category": "Mobile",
-      "Description": "Good Phone",
+      "color": "white",
+      "description": "",
       "image": "https://mediacenterpk.com/image/catalog/Apple/03-10-19/Apple/iphone-12/64-GB/White-Size.png",
-      "id": 9
+      "id": 13
+    },
+    {
+      "name": "iPhone 13",
+      "price": "58000",
+      "category": "Mobile phones",
+      "color": "Black",
+      "description": "An apple product",
+      "image": "https://timesofindia.indiatimes.com/photo/83306292.cms",
+      "id": 14
+    },
+    {
+      "name": "iPhone 15 Pro Max",
+      "price": "150000",
+      "category": "Mobile",
+      "color": "White",
+      "description": "An apple product",
+      "image": "https://th.bing.com/th/id/OIP.02UIVsoM0MCfkx7CzicgOwHaHa?rs=1&pid=ImgDetMain",
+      "id": 15
+    },
+    {
+      "name": "Milton 2L Bottle",
+      "price": "999",
+      "category": "Water Bottles",
+      "color": "Silver",
+      "description": "Good for summers, keeps the water cool for more than 24 hours",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40130313_5-milton-water-bottle-thermosteel-24-hour-hot-cold-silver-duo-deluxe.jpg",
+      "id": 17
+    },
+    {
+      "name": "Milton 2L Bottle",
+      "price": "999",
+      "category": "Water Bottles",
+      "color": "Silver",
+      "description": "abcd",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40130313_5-milton-water-bottle-thermosteel-24-hour-hot-cold-silver-duo-deluxe.jpg",
+      "id": 18
     }
   ],
   "users": [
@@ -162,32 +195,140 @@
       "email": "amanuser@gmail.com",
       "password": "aman123",
       "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "alex",
+      "email": "alex@123.com",
+      "password": "alex123",
+      "id": 9
+    },
+    {
+      "name": "khushkit",
+      "email": "k123@gmail.com",
+      "password": "1111",
+      "id": 10
+    },
+    {
+      "name": "admin1@circulayo.com",
+      "email": "sahil@test.com",
+      "password": "11",
+      "id": 11
+    },
+    {
+      "name": "admin1@circulayo.com",
+      "email": "sahilcheema72@gmail.com",
+      "password": "Test@123",
+      "id": 12
+    },
+    {
+      "name": "Bholenath",
+      "email": "sahil@test.com",
+      "password": "Test@123",
+      "id": 13
+    },
+    {
+      "name": "rAHUL",
+      "email": "sahil@test.com",
+      "password": "Test@123",
+      "id": 14
+    },
+    {
+      "name": "mhell",
+      "email": "sahilcheema72@gmail.com",
+      "password": "Test@123",
+      "id": 15
+    },
+    {
+      "name": "yami",
+      "email": "yami123@gmail.com",
+      "password": "11111111",
+      "id": 16
+    },
+    {
+      "name": "abcd",
+      "email": "sahil@test.com",
+      "password": "12345678",
+      "id": 17
+    },
+    {
+      "name": "admin1@circulayo.com",
+      "email": "jjjj",
+      "password": "Test@123",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "Sahil Cheema",
+      "email": "sahil@test.com",
+      "password": "11111111",
+      "id": 20
+    },
+    {
+      "name": "sahil",
+      "email": "aa",
+      "password": "Test@123",
+      "id": 21
+    },
+    {
+      "name": "rahul",
+      "email": "sahil@test.com",
+      "password": "123456",
+      "id": 22
+    },
+    {
+      "name": "Umesh",
+      "email": "UmeshGG@gmail.com",
+      "password": "12345678",
+      "id": 23
     }
   ],
   "cart": [
     {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 1,
-      "productId": 1,
-      "userId": 3,
-      "id": 7
+      "name": "Nike Shoe",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 5,
+      "productId": 4,
+      "userId": 11,
+      "id": 9
     },
     {
-      "name": "Levies Jeans",
-      "price": "5000",
-      "category": "Jeans",
-      "color": "blue",
-      "description": "Confirmable jeans for man ",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
       "quantity": 1,
-      "productId": 5,
-      "userId": 3,
-      "id": 8
+      "productId": 2,
+      "userId": 15,
+      "id": 10
+    },
+    {
+      "name": "Nike Shoe",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 4,
+      "productId": 4,
+      "userId": 13,
+      "id": 11
     }
   ],
   "orders": [
@@ -206,6 +347,46 @@
       "totalPrice": 650,
       "userId": 5,
       "id": 2
+    },
+    {
+      "email": "sahilcheema72@gmail.com",
+      "address": "1563/7E FARIDABAD",
+      "contact": "ff",
+      "totalPrice": 100100,
+      "userId": 10,
+      "id": 3
+    },
+    {
+      "email": "sahilcheema72@gmail.com",
+      "address": "1563/7E FARIDABAD",
+      "contact": "7982895039",
+      "totalPrice": 150100,
+      "userId": 16,
+      "id": 4
+    },
+    {
+      "email": "sahil@test.com",
+      "address": "1563/7E FARIDABAD",
+      "contact": "7982895039",
+      "totalPrice": 5100,
+      "userId": 21,
+      "id": 5
+    },
+    {
+      "email": "sahil@test.com",
+      "address": "1563/7E FARIDABAD",
+      "contact": "7982895039",
+      "totalPrice": 50100,
+      "userId": 17,
+      "id": 6
+    },
+    {
+      "email": "sahil@test.com",
+      "address": "1563/7E FARIDABAD",
+      "contact": "7982895039",
+      "totalPrice": 3100,
+      "userId": 23,
+      "id": 7
     }
   ]
 }
